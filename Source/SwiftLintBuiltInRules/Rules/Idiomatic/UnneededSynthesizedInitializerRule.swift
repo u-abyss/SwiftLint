@@ -284,3 +284,4 @@ private func synthesizedInitializerAccessLevel(using storedProperties: [Variable
     }
     return hasFileprivate ? .fileprivate : .internal
 }
+

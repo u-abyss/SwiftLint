@@ -2,6 +2,15 @@
 // swiftlint:disable:next type_name type_body_length
 enum UnneededSynthesizedInitializerRuleExamples {
     static let nonTriggering = [
+//        Example("""
+//                private struct Data {
+//                    @PropertyWrapper<E> var e: E
+//
+//                    init(e: E) {
+//                        self.e = e
+//                    }
+//                }
+//                """),
         Example("""
                 struct Foo {
                     let bar: String
